@@ -37,10 +37,12 @@ RESTful API endpoints:
 ### Brand Integration
 
 Colors extracted from bloomingtreefinancials.com:
-- **Primary Purple**: #673de6 (buttons, accents, active states)
-- **Dark Purple Background**: #1F1346, #2f1c6a (gradient header)
-- **Light Purple**: #ebe4ff (borders, hover states)
-- **Accent Purple**: #8c85ff (button hover)
+- **Primary Green**: #4a7c59 (buttons, accents, active states)
+- **Green to Brown Gradient Background**: #4a7c59, #6b8e23, #8b7355 (gradient header)
+- **Light Green**: #d4e7d4 (borders, input outlines)
+- **Hover Green**: #5a8c69 (button hover states)
+- **Light Green Hover**: #e8f5e9 (filter button hover)
+- **Dark Green Text**: #2d5016 (heading text color)
 - **Priority Colors**:
   - High: #fc5185 (danger red)
   - Medium: #ffcd35 (warning yellow)
@@ -165,6 +167,6 @@ Required for deployment:
 
 ---
 
-**Last Updated**: 2025-12-29
+**Last Updated**: 2025-12-30
 **Built by**: Claude (Anthropic)
 **For**: Blooming Tree Financial and Consulting Services
