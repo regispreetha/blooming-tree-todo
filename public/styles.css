@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background: linear-gradient(135deg, #1F1346 0%, #2f1c6a 100%);
+    background: linear-gradient(135deg, #4a7c59 0%, #6b8e23 50%, #8b7355 100%);
     min-height: 100vh;
     padding: 20px;
     color: #333;
@@ -52,21 +52,21 @@ header h1 {
     width: 100%;
     padding: 15px;
     font-size: 1rem;
-    border: 2px solid #ebe4ff;
+    border: 2px solid #d4e7d4;
     border-radius: 8px;
     transition: border-color 0.3s;
 }
 
 #todoTitle:focus {
     outline: none;
-    border-color: #673de6;
+    border-color: #4a7c59;
 }
 
 #todoDescription {
     width: 100%;
     padding: 12px;
     font-size: 0.95rem;
-    border: 2px solid #ebe4ff;
+    border: 2px solid #d4e7d4;
     border-radius: 8px;
     resize: vertical;
     font-family: inherit;
@@ -75,7 +75,7 @@ header h1 {
 
 #todoDescription:focus {
     outline: none;
-    border-color: #673de6;
+    border-color: #4a7c59;
 }
 
 .form-row {
@@ -88,7 +88,7 @@ header h1 {
     flex: 1;
     padding: 12px;
     font-size: 0.95rem;
-    border: 2px solid #ebe4ff;
+    border: 2px solid #d4e7d4;
     border-radius: 8px;
     background: white;
     cursor: pointer;
@@ -97,12 +97,12 @@ header h1 {
 
 .priority-select:focus {
     outline: none;
-    border-color: #673de6;
+    border-color: #4a7c59;
 }
 
 .btn-primary {
     padding: 12px 30px;
-    background: #673de6;
+    background: #4a7c59;
     color: white;
     border: none;
     border-radius: 8px;
@@ -113,7 +113,7 @@ header h1 {
 }
 
 .btn-primary:hover {
-    background: #8c85ff;
+    background: #5a8c69;
 }
 
 .btn-primary:active {
@@ -130,8 +130,8 @@ header h1 {
 .filter-btn {
     padding: 10px 20px;
     background: white;
-    color: #673de6;
-    border: 2px solid #673de6;
+    color: #4a7c59;
+    border: 2px solid #4a7c59;
     border-radius: 8px;
     font-size: 0.9rem;
     font-weight: 600;
@@ -140,11 +140,11 @@ header h1 {
 }
 
 .filter-btn:hover {
-    background: #ebe4ff;
+    background: #e8f5e9;
 }
 
 .filter-btn.active {
-    background: #673de6;
+    background: #4a7c59;
     color: white;
 }
 
@@ -200,7 +200,7 @@ header h1 {
     width: 24px;
     height: 24px;
     cursor: pointer;
-    accent-color: #673de6;
+    accent-color: #4a7c59;
     margin-top: 3px;
     flex-shrink: 0;
 }
@@ -212,7 +212,7 @@ header h1 {
 .todo-content h3 {
     font-size: 1.1rem;
     margin-bottom: 5px;
-    color: #2f1c6a;
+    color: #2d5016;
 }
 
 .todo-content p {
